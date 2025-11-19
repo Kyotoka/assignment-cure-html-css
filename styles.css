@@ -1,0 +1,109 @@
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero--about--section {
+  width: 100%;
+  background: #f3fcf7;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+/* NAV CONTAINER */
+.nav {
+  width: 100%;
+  padding: 50px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position:sticky ;
+}
+
+/* BRAND NAME */
+.brand--name {
+  color: #06c167;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+}
+
+/* NAV LIST */
+.nav--list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+/* NAV ITEMS LINKS */
+
+.nav--item a {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0;
+  text-decoration: none;
+  color: #000;
+}
+#home {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0;
+  font-optical-sizing: auto;
+  color: #06c167 !important;
+}
+.about--section {
+  width: 100%;
+  padding: 50px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about--section-left {
+  justify-content: left;
+}
+.about--highlight {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 75px;
+}
+.about--highlight--description {
+  color: #1D1D1FBF;
+  font-family: "Inter", sans-serif;
+  margin-top: 20px;
+
+}
+.about-button {
+  margin-top: 25px;
+  border-radius: 5px;
+  padding: 20px 45px;
+  background: #06c167;
+  border-style: none;
+  color: #fff;
+  font-size: 16px;
+
+  align-items: center;
+}
+.arrow--btn {
+  margin-left: 15px;
+}
+
+.brand--logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 50px 200px;
+  background: #fff;
+  margin-top: 2%;
+}
+
+
