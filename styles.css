@@ -4,6 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+}
 
 .hero--about--section {
   width: 100%;
@@ -16,7 +20,7 @@
 /* NAV CONTAINER */
 .nav {
   width: 100%;
-  padding: 50px 200px;
+  padding: 50px 160px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -62,7 +66,7 @@
 }
 .about--section {
   width: 100%;
-  padding: 50px 200px;
+  padding: 50px 160px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -99,11 +103,287 @@
 .brand--logo {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 20px;
-  padding: 50px 200px;
+  padding: 50px 160px;
   background: #fff;
   margin-top: 2%;
 }
 
+.services--section {
 
+}
+.services--provided {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 2px;
+  flex-wrap: wrap;
+  padding: 50px 160px;
+}
+.service {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.service-logo {
+  border-radius: 5px;
+  padding: 22px;
+  background: #F3FCF7;
+  border-style: none;
+  color: #06C167;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+
+}
+.service--texts h4 {
+  font-family: "Inter", sans-serif;
+  font-size:18px;
+  font-weight: 400;
+  color: #1D1D1F;
+
+}
+.service--texts p {
+  font-family: "Inter", sans-serif;
+  margin-top: 10px;
+  opacity: 40%;
+  font-weight: 500;
+  font-size: 14px;
+}
+.container {
+  padding: 50px 160px;
+  opacity: 40%;
+}
+.our-company-1 {
+  margin-top: 30px;
+  padding: 50px 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.our-company-1-pic {
+  padding: 24px;
+  background: #f3fcf7;
+  border-radius: 24px;
+}
+.our-company-1-p {
+  margin-bottom: 15%;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.our-company-1-h1 {
+  margin-bottom: 25px;
+  font-size: 60px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.our-company-1-check {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.our-company-1-check i {
+  color: #06C167;
+  font-size: 16px;
+
+}
+.our-company-2 {
+  margin-top: 30px;
+  padding: 50px 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.our-company-2-p {
+
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.our-company-2-h1 {
+  font-size: 60px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin-bottom: 54px;
+}
+.review--section {
+  display: flex;
+  justify-content: space-between;
+}
+.our-company-2-pic {
+  padding-bottom: 95px;
+  padding-left: 95px;
+  background: #F3FAFB;
+}
+
+.our-company-2-button {
+  margin-top: 25px;
+  border-radius: 5px;
+  padding: 20px 45px;
+  background: #06c167;
+  border-style: none;
+  color: #fff;
+  font-size: 16px;
+
+  align-items: center;
+}
+.review {
+ font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #06C167;
+  margin-bottom: 15px;
+
+
+}
+.review-of {
+  color: #1D1D1F;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 54px;
+
+}
+
+.presentation {
+
+}
+.presentation-p1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #06C167;
+
+}
+.presentation-p1-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #06C167;
+  background: #f3fcf7;
+  border-radius: 12px;
+  padding: 15px 24px;
+  gap: 10px;
+  margin-bottom: 27px;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+
+}
+#presentation-title{
+  color: #1D1D1F;
+  font-size: 60px;
+  margin-top: 12px;
+  margin-bottom: 70px;
+}
+.presentation {
+  padding: 50px 160px;
+}
+.presentation-card {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+
+}
+.presentation-card img {
+
+}
+.presentation-card-info {
+  border: 2px solid #06C167;
+  background: #f3fcf7;
+  width: 292px;
+ display: grid;
+ justify-content: start;
+  align-items: center;
+  padding-left: 37px;
+
+}
+
+.presentation-card-info h3 {
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  color: #1D1D1F;
+}
+.presentation-card-info p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #1D1D1F;
+}
+.presentation-card-info button {
+  border-radius: 5px;
+  padding: 10px 14px;
+  background: #E6F9F0;
+  border-style: none;
+  color: #06C167;
+  font-size: 15px;
+  align-items: center;
+}
+.products-div {
+  margin-top: 192px;
+  padding: 50px 160px;
+}
+.products-div-start {
+  margin-bottom: 63px ;
+}
+.products-div-start h6{
+ font-size: 15px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: #1D1D1F;
+}
+.products-div-start h1 {
+  font-size: 60px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+
+}
+.products-cards-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.products-cards-layer1 {
+  border: 2px solid #76767540;
+  border-radius: 12px;
+  padding: 24px 40px 30px 40px;
+}
+.products-cards-layer2 {
+  display: grid;
+  justify-content: space-between;
+}
+.products-review {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 21px;
+}
+.products-review-stars {
+  color: #06C167;
+}
+.products-names {
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #1D1D1F;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+.products-price {
+
+  display: flex;
+  justify-content: center;
+}
+.products-price-before {
+  text-decoration: line-through;
+  color: #767675;
+}
