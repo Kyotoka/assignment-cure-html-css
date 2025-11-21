@@ -387,6 +387,7 @@ font-family: "Inter", sans-serif;
   text-decoration: line-through;
   color: #767675;
   margin-right: 8px ;
+  font-size: 20px;
 }
 .products-price-after {
   color: #06C167;
@@ -551,4 +552,5 @@ padding: 50px 160px;
  margin-top: 96px;
   margin-bottom: 38px;
 }
+
 
