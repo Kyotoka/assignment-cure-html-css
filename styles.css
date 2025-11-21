@@ -286,7 +286,7 @@ font-family: "Inter", sans-serif;
   margin-bottom: 70px;
 }
 .presentation {
-  padding: 50px 160px;
+  padding: 50px 135px;
 }
 .presentation-card {
   display: flex;
@@ -386,4 +386,169 @@ font-family: "Inter", sans-serif;
 .products-price-before {
   text-decoration: line-through;
   color: #767675;
+  margin-right: 8px ;
 }
+.products-price-after {
+  color: #06C167;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.products-buy-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products-buy-button {
+  margin-top: 30px;
+  padding-left:  30px ;
+  padding-top: 17px;
+  padding-bottom: 19px;
+  border: 2px solid #06C167;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+  color: #06C167;
+}
+.products-buy-button i {
+  padding-right: 26px;
+  margin-left: 31px;
+  color: #06C167;
+
+}
+.your-pic-start{
+padding: 50px 160px;
+}
+.your-pic {
+  background:url("./assets/yourpic.png") ;
+  height: 459px;
+  width: 100%;
+  background-size: cover;
+
+  border-radius: 16px;
+}
+
+.your-pic h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 110px;
+  align-items: center;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-size: 60px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.get-started-btn-section{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.get-started-btn-section button{
+  background: #06C167;
+  border: none;
+  color: #FFFFFF;
+  border-radius: 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 28px 34px 31px 40px ;
+  margin-top: 37px;
+}
+.get-started-btn-section i {
+
+}
+
+.footer {
+  width: 100%;
+  padding: 50px 160px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #fff;
+  font-family: "Inter", sans-serif;
+  max-width: 1440px;
+
+}
+
+
+
+.footer-left h2 {
+  color: #06C167;
+  margin-bottom: 40px;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.footer-left p {
+  color: #1D1D1F;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 52px;
+}
+
+.socials i {
+  font-size: 16px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+
+.footer-topics h3 {
+  font-size:24px;
+  margin-bottom: 40px;
+  font-weight: 500;
+  color: #1D1D1F;
+}
+
+.footer-topics ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-topics ul li {
+  margin-bottom: 15px;
+  cursor: pointer;
+  color: #1D1D1F;
+}
+
+.sub-box-top {
+  margin-bottom: 37px;
+}
+.subscribe-box {
+  margin-top: 12px;
+  display: flex;
+  gap: 15px;
+}
+
+.subscribe-box input {
+  padding: 12px;
+  background: #f2f2ec;
+  border: none;
+  border-radius: 12px;
+  flex: 1;
+  outline: none;
+}
+
+.subscribe-box button {
+  padding: 16px 28px;
+  background: #06C167;
+  border: none;
+  border-radius: 12px;
+  color: white;
+}
+
+
+.footer-bottom {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1D1D1F;
+ margin-top: 96px;
+  margin-bottom: 38px;
+}
+
