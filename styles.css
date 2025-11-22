@@ -1052,7 +1052,7 @@ body {
 
   .footer {
     width: 100%;
-    padding: unset;
+    padding: 1px;
     background: #fff;
     font-family: "Inter", sans-serif;
     display: flex;
@@ -1144,3 +1144,4 @@ body {
     margin-bottom: 38px;
   }
 }
+
