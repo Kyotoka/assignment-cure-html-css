@@ -546,6 +546,7 @@ body {
   body {
     overflow-x: hidden;
     margin: 0 auto;
+    max-width: 375px;
   }
   footer {
     max-width: 375px;
@@ -1144,4 +1145,5 @@ body {
     margin-bottom: 38px;
   }
 }
+
 
