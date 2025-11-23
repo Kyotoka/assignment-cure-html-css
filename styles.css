@@ -343,6 +343,9 @@ body {
   border-radius: 12px;
   padding: 24px 40px 30px 40px;
 }
+.products-cards-layer1:hover {
+  border-color: #06C167;
+}
 .products-cards-layer2 {
   display: grid;
   justify-content: space-between;
@@ -1145,5 +1148,6 @@ body {
     margin-bottom: 38px;
   }
 }
+
 
 
